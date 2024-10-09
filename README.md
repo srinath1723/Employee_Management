@@ -19,7 +19,7 @@ This is a Full-Stack Employee Management System that allows you to create, read,
   - [API Endpoints](#api-endpoints)
     - [Employee Endpoints](#employee-endpoints)
   - [Screenshots](#screenshots)
-  - [](#)
+
 
 ---
 
