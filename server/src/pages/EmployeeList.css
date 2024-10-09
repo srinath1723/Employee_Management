@@ -1,0 +1,90 @@
+/* Style for the overall employee list container */
+.employee-list-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Align the h2 header (Employee List) to the starting point */
+.employee-list-container h2 {
+    text-align: left; /* Changed to left alignment */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Ensure the table and all content display from the left */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left; /* Ensure text is aligned to the left */
+}
+
+/* Styling the table header */
+table thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect for table rows */
+table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Style for employee images in table */
+table img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Flexbox for the action buttons */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* General button styling */
+button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Specific style for delete buttons */
+button.delete {
+    background-color: #f44336;
+}
+
+/* Hover effect for delete buttons */
+button.delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Navbar specific styling to align it to the start */
+.navbar {
+    text-align: left; /* Make sure navbar content starts from the left */
+    margin-bottom: 20px;
+}
+.employee-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}

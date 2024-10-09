@@ -1,0 +1,28 @@
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar button {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
